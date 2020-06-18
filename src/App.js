@@ -2,11 +2,8 @@ import React from 'react';
 import { Card,
   Image,
   Icon,
-  Header,
-  Message,
-  Segment,} from 'semantic-ui-react'
+} from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css';
-import './App.css';
 
 function App() {
   return (
@@ -23,7 +20,7 @@ function App() {
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
-      <a>
+      <a href='/'>
         <Icon name='user' />
         22 Friends
       </a>
