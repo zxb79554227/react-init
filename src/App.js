@@ -1,11 +1,11 @@
 import React from 'react';
-
-import './App.scss';
-
+import Loading from './view/loading'
+import Home from './view/home'
 function App() {
   return (
     <div className="App">
-
+      {/* <Loading></Loading> */}
+      <Home></Home>
     </div>
   );
 }
